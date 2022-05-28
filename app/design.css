@@ -1,0 +1,148 @@
+img{
+    width: 100%;
+    height: 100%;
+    background-image:url(img.jpg);
+    background-repeat:no-repeat;
+margin-top: none;
+}
+.pic1{
+
+ width: 100%;
+    height: 90%;
+    background-image:url(img.jpg);
+    background-repeat:no-repeat;
+margin-top: none;
+	
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-style: italic;
+  font: 15px Georgia,sans-serif;
+  font-size: 20px;
+
+  }
+ .Second{
+  position: absolute;
+  top: 100px;
+  right: 500px;
+}
+.Radio1{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.Radio2{
+position: absolute;
+	top: 35px;
+  left: 16px;
+}
+.First{
+  position: absolute;
+  top: 100px;
+  left: 23px;
+  margin-left: 12px;
+
+}
+.Password{
+ position: absolute;
+  top: 180px;
+  left: 35px;
+  margin-left: 14px;
+
+}
+.confirm-password{
+
+	 position: absolute;
+  top: 180px;
+  right:500px;
+
+}
+.phone-number{
+
+	 position: absolute;
+  top: 260px;
+  left: 5px;
+}
+.school{
+ position: absolute;
+ top: 340px;
+ left: 22px;
+}
+.email{
+
+	 position: absolute;
+  top: 260px;
+  right:500px;
+
+}
+.date{
+ position: absolute;
+  top: 340px;
+  right:520px;
+
+}
+.button{
+position: absolute;
+top: 430px;
+right:900px;
+ background-color: #04AA6D;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.footer
+	{
+	border: 5px solid black;
+	background-color: black;
+	text-align: center;
+	color: white;
+	margin-top: 40px;
+	}
+	.fa
+	{
+	color: white;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	}
+p{
+
+	color: black;
+}
+.pic2 img{
+height: 50%;
+width: 50%;
+margin: 200px;
+}
